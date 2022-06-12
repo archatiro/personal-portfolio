@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    background: url("blackdunes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+nav {
+    margin: 0;
+    padding:0;
+    text-align: center;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    background-color: black;
+}
+
+.about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+
+}
+.portrait-sec {
+    display: flex;
+    justify-content: center;
+}
+
+#profile {
+    padding: 0;
+    border: 5px solid black;
+    background-color: black;
+}
+
+.projects-sec {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.projects-sec img {
+    width: 50%;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 2px;
+    
+}
+
+.projects-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-sec p {
+    width: 86%;
+}
+
+.projects-sec a {
+    color: springgreen;
+    text-decoration: none;
+}
+
+.link {
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
+}
+
+footer h1 {
+    text-align: center;
+}
